@@ -178,6 +178,9 @@
 		B69B454E2190C3CC00F30418 /* CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69B454C2190C3BC00F30418 /* CountTests.swift */; };
 		B69B454F2190C3CC00F30418 /* CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69B454C2190C3BC00F30418 /* CountTests.swift */; };
 		B69B45502190C3CD00F30418 /* CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69B454C2190C3BC00F30418 /* CountTests.swift */; };
+		BBCB57562B0F92F400EC432D /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCB57552B0F92F400EC432D /* Observable+Alias.swift */; };
+		BBCB57572B0F92F400EC432D /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCB57552B0F92F400EC432D /* Observable+Alias.swift */; };
+		BBCB57582B0F92F400EC432D /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCB57552B0F92F400EC432D /* Observable+Alias.swift */; };
 		BF515CE01F3F370600492640 /* curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF515CDF1F3F370600492640 /* curry.swift */; };
 		BF515CE21F3F371600492640 /* fromAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF515CE11F3F371600492640 /* fromAsync.swift */; };
 		BF515CE51F3F3AF400492640 /* FromAsyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF515CE31F3F3AC900492640 /* FromAsyncTests.swift */; };
@@ -375,6 +378,7 @@
 		A2A68C972278AF5000586188 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 		B69B45482190C27D00F30418 /* count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = count.swift; sourceTree = "<group>"; };
 		B69B454C2190C3BC00F30418 /* CountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTests.swift; sourceTree = "<group>"; };
+		BBCB57552B0F92F400EC432D /* Observable+Alias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Alias.swift"; sourceTree = "<group>"; };
 		BF515CDF1F3F370600492640 /* curry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = curry.swift; path = Source/Tools/curry.swift; sourceTree = SOURCE_ROOT; };
 		BF515CE11F3F371600492640 /* fromAsync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = fromAsync.swift; path = Source/RxSwift/fromAsync.swift; sourceTree = SOURCE_ROOT; };
 		BF515CE31F3F3AC900492640 /* FromAsyncTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromAsyncTests.swift; sourceTree = "<group>"; };
@@ -544,6 +548,7 @@
 				98309EB01EDF159500BD07D9 /* filterMap.swift */,
 				BF515CE11F3F371600492640 /* fromAsync.swift */,
 				5386079E1E6F334B000361DE /* ignore.swift */,
+				BBCB57552B0F92F400EC432D /* Observable+Alias.swift */,
 				5386079F1E6F334B000361DE /* ignoreErrors.swift */,
 				538607A01E6F334B000361DE /* ignoreWhen.swift */,
 				538607A11E6F334B000361DE /* mapTo.swift */,
@@ -1063,6 +1068,7 @@
 				BF515CE21F3F371600492640 /* fromAsync.swift in Sources */,
 				DC612872209E80810053CBB7 /* mapMany.swift in Sources */,
 				5386076F1E6F1C0A000361DE /* mapTo+RxCocoa.swift in Sources */,
+				BBCB57562B0F92F400EC432D /* Observable+Alias.swift in Sources */,
 				A23E148B21A9F03600CD5B2F /* partition+RxCocoa.swift in Sources */,
 				538607B71E6F334B000361DE /* repeatWithBehavior.swift in Sources */,
 				538607AC1E6F334B000361DE /* catchErrorJustComplete.swift in Sources */,
@@ -1149,6 +1155,7 @@
 				DC612873209E80810053CBB7 /* mapMany.swift in Sources */,
 				BF79DA0B206C145D008AA708 /* withUnretained.swift in Sources */,
 				A23E148821A9EFC000CD5B2F /* partition.swift in Sources */,
+				BBCB57572B0F92F400EC432D /* Observable+Alias.swift in Sources */,
 				A23E148C21A9F03600CD5B2F /* partition+RxCocoa.swift in Sources */,
 				BF515CE81F3F3B0000492640 /* fromAsync.swift in Sources */,
 				BF515CEA1F3F3B0300492640 /* curry.swift in Sources */,
@@ -1236,6 +1243,7 @@
 				DC612874209E80810053CBB7 /* mapMany.swift in Sources */,
 				BF79DA0C206C145D008AA708 /* withUnretained.swift in Sources */,
 				A23E148921A9EFC000CD5B2F /* partition.swift in Sources */,
+				BBCB57582B0F92F400EC432D /* Observable+Alias.swift in Sources */,
 				A23E148D21A9F03600CD5B2F /* partition+RxCocoa.swift in Sources */,
 				BF515CE91F3F3B0100492640 /* fromAsync.swift in Sources */,
 				BF515CEB1F3F3B0300492640 /* curry.swift in Sources */,
